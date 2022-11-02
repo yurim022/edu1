@@ -3,7 +3,7 @@ properties([pipelineTriggers([githubPush()])])
 pipeline {
     environment {
         // Global 변수 선언
-        dockerRepo = "yurim022/edu1"
+        dockerRepo = "yurimming/edu1"
         dockerCredentials = 'nov_yurimming_docker_ci'
         dockerImageVersioned = ""
         dockerImageLatest = ""
